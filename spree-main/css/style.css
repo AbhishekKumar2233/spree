@@ -664,9 +664,12 @@ article {
 .copyright
 {
   font-size: large;
-  text-align: center;
-  margin-left: 5px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 20px;
   padding: 10px;
+  font-size: 15px;
+
 }
 
 ::selection
@@ -693,4 +696,35 @@ main
 }
 .txt{
   color:#000;
+}
+#filter{
+  margin: 25px;
+  height: 30px;
+  width: 80px;
+}
+.txt2{
+   align-items: center;
+  text-align: left;
+}
+.c1{
+  align-items: center;
+}
+.ican{
+ align-items: center;
+  height: 40px;
+  width: 20px;
+  margin: 5px;
+  color:#004DD9;
+  font-weight: 600;
+  font-size: 30px;
+  border-color: transparent;
+  margin-top: 60px;
+  background-attachment: fixed;
+  
+  
+}
+.ican:hover{
+  color: #000;
+  font-size: 35px;
+  
 }
